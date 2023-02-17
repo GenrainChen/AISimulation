@@ -1,7 +1,9 @@
 # Dahlquist 测试方程
+#
+# 陈立明 2023.2.16
 
 from AISimulation.iteration import Iterator
-from AISimulation.result_plot import basic_2d_plot
+from AISimulation.resultplot import basic_2d_plot
 
 import numpy as np
 

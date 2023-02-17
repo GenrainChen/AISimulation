@@ -1,7 +1,9 @@
 # BouncingBall 弹跳球模型，描述了一个小球从空中自由落体并不断撞击地面反弹的模型
+#
+# 陈立明 2023.2.16
 
 from AISimulation.iteration import Iterator
-from AISimulation.result_plot import basic_2d_plot
+from AISimulation.resultplot import basic_2d_plot
 
 import numpy as np
 
@@ -76,5 +78,5 @@ if __name__ == '__main__':
     result = model.run()
 
     # 结果展示
-    Basic_2Dplot(result, 't', 'h')
-    Basic_2Dplot(result, 't', 'v')
+    basic_2d_plot(result, 't', 'h')
+    basic_2d_plot(result, 't', 'v')

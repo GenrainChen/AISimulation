@@ -10,7 +10,7 @@ AISimulation 是一款结合人工智能和仿真的工具，其注释完全由�
 
 示例代码：
 from AISimulation.iteration import Iterator
-from AISimulation.result_plot import basic_2d_plot
+from AISimulation.resultplot import basic_2d_plot
 
 import numpy as np
 
